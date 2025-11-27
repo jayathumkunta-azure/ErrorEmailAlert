@@ -1,0 +1,30 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"description": "dfsdf",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "dddddd",
+					"value": "dffffff"
+				}
+			}
+		],
+		"variables": {
+			"dddddd": {
+				"type": "Integer"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2025-11-27T01:25:33Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
